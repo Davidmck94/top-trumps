@@ -1,0 +1,21 @@
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color:  green;
+    
+}
+
+#poke-title {
+    height: 200px;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(227, 227, 3);
+    text-shadow: 5px 5px #0645ad;
+    font-size: 100px;
+    margin-top: 10px;
+    
+}
+
