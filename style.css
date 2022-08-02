@@ -1,21 +1,189 @@
-body{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    background-color:  green;
-    
+body {
+    background-image:  url("https://wallpaperaccess.com/full/51019.jpg");
+    background-size: cover;
 }
 
 #poke-title {
-    height: 200px;
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    width: 150px;
+    margin-left: 750px;
 }
 
-h1 {
+#poke {
+
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: rgb(227, 227, 3);
-    text-shadow: 5px 5px #0645ad;
-    font-size: 100px;
+    text-shadow: 3px 3px #0645ad;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+}
+
+p1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(227, 227, 3);
+    text-shadow: 3px 3px #0645ad;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+#scores {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin: 0rem 20rem;
+
+}
+
+#score-Player1 {
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+}
+
+#score-Cpu {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+#message-display{
+        display: flex;
+        justify-content: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: red;
+        font-size: 50px;
+        
+}
+
+#play-again-btn {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(227, 227, 3);
+    text-shadow: 1px 1px #0645ad;
+    font-size: 20px;
+    border-radius: 10px;
+    background-image: linear-gradient(#0645ad,  rgb(227, 227, 3));
+    color: white;
+    margin-left: 23.5rem;
+    margin-bottom: .5rem;
+}
+
+#players-container{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin: 0rem 20rem;
+}
+
+.card-image{
+    height: 30%;
+    width: 50%;
+}
+
+#player1-pokemon {
+    font-size: 40px;
     margin-top: 10px;
+}
+
+#player1{
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(227, 227, 3);
+    text-shadow: 1px 1px #0645ad;
+    font-size: 20px;
+    border: 10px solid #0645ad;
+    box-shadow: 5px 5px 5px rgb(227, 227, 3);
+    border-radius: .5cm;
+    vertical-align: left;
+    height: 40rem;
+    width: 25rem;
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/231/113/301/background-solid-glare-light-wallpaper-thumb.jpg");
+    background-size: cover;
+}
+
+#score-counter{
+    display: flex;
+    justify-content: space-around;
+}
+
+.attribute-btns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 10rem;
+    height: 1.8rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(227, 227, 3);
+    text-shadow: 1px 1px #0645ad;
+    font-size: 20px;
+    border: 2px solid black;
+    box-shadow: 5px 5px 5px rgb(227, 227, 3);
+    border-radius: .3cm;
+    background-color: transparent;
+    margin-left: 120px;
+}
+
+.attribute-btns:hover{
+    background-color: #0645ad;
+}
+
+#player1-attributes {
+    display: flex;
+    flex-direction: column;
     
 }
 
+.container1 {
+    display: flex;
+    border-radius: .30cm;
+    border: 2px solid black;
+    background-color: rgb(208, 34, 34);
+    
+}
+
+#cpu-container {
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(227, 227, 3);
+    text-shadow: 1px 1px #0645ad;
+    font-size: 20px;
+    border: 10px solid #0645ad;
+    box-shadow: 5px 5px 5px rgb(227, 227, 3);
+    border-radius: .5cm;
+    vertical-align: right;
+    height: 40rem;
+    width: 25rem;
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/231/113/301/background-solid-glare-light-wallpaper-thumb.jpg");
+    background-size: cover;
+}
+
+.container2 {
+    /* display: flex;
+    border-radius: .30cm;
+    border: 2px solid black;
+    background-color: rgb(208, 34, 34); */
+    display: none;
+    
+    
+}
+
+#cpu-attributes {
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+    
+    
+}
+
+#cpuPokemon-name {
+    margin-top: 10px;
+    margin-bottom: 45px;
+}
+
+p2 {
+    margin-bottom: 5px;
+}

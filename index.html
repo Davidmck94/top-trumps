@@ -9,11 +9,70 @@
     <script src="script.js" defer></script>
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
-    <div id="image">
-    <img id="poke-title" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/1200px-International_Pok%C3%A9mon_logo.svg.png"/>
-    <h1>Top Trumps</h1>  
-    </div> 
+
+    <div id="poke-title">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/1200px-International_Pok%C3%A9mon_logo.svg.png"/>
+    </div>
+
+    <h1 id="poke">Top Trumps</h1>
+
+    <div><h2 id="message-display"></h2></div>
+  
+    <div id="scores">
+    <p1>Player 1 Score:</p1>
+    <p1 id="score-Player1">0</p1> 
+    <p1>CPU Score:</p1>
+    <p1 id="score-Cpu">0</p1>
+  </div>
+  
+  <button id="play-again-btn"> Play Again! </button>
+  
+  <div id="players-container">
+    <div id="player1">
+      <h3 id="player1-pokemon"></h3>
+      <img id="player1-card-img" class = card-image src="  " />  
+
+
+    <div id="player1-attributes">
+      <button id="HP-btn" class="attribute-btns">HP</button> 
+      <div id="player1-Hp" class="container1">0</div>
+      <button id="Attack-btn"class="attribute-btns">Attack</button>
+      <div id="player1-Attack" class="container1">0</div>
+      <button id="Defence-btn"class="attribute-btns">Defence</button>
+      <div id="player1-Defence" class="container1">0</div>
+      <button id="Special-Attack-btn"class="attribute-btns">Special Attack</button>
+      <div id="player1-SpecialAttack" class="container1">0</div>
+      <button id="Special-Defence-btn"class="attribute-btns">Special Defence</button>
+      <div id="player1-SpecialDefense" class="container1">0</div>
+      <button id="Speed-btn"class="attribute-btns">Speed</button>
+      <div id="player1-Speed" class="container1">0</div>
+    </div>
+  
+    </div>
+  
+    <div id="cpu-container">
+      <h1 id="cpuPokemon-name"></h1>
+      <img id="cpu-card-img" class="card-image" src="" />
+  
+     <div id="cpu-attributes">
+      <p2 class="attr">HP ?</p2>
+      <div id="cpu-Hp" class="container2">0</div>
+      <p2 class="attr">Attack ?</p2>
+      <div id="cpu-Attack" class="container2">0</div>
+      <p2 class="attr">Defence ?</p2>
+      <div id="cpu-Defence" class="container2">0</div>
+      <p2 class="attr">Special Attack ?</p2>
+      <div id="cpu-SpecialAttack" class="container2">0</div>
+      <p2 class="attr">Special Defence ?</p2>
+      <div id="cpu-SpecialDefence" class="container2">0</div>
+      <p2 class="attr">Speed ?</p2>
+      <div id="cpu-Speed" class="container2">0</div>
+    </div>
+  
+    </div>
+  </div>
     
     
   </body>
