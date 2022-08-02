@@ -383,7 +383,7 @@ distributeCards()
 //Variable set to display the current cards of both players
 
 let player1LiveCard = document.getElementById("player1-card-img");
-let p2CardDisplay = document.getElementById("cpu-card-img");
+let cpuLiveCard = document.getElementById("cpu-card-img");
 
 //Accessing the different Pokemon attributes for comparison purposes
 
@@ -400,7 +400,7 @@ function player1Attributes(){
 player1Attributes()
 
 function cpuAttributes(){
-    p2CardDisplay.src  = `${cpuCurrent.img}`;
+    cpuLiveCard.src  = `${cpuCurrent.img}`;
     document.getElementById('cpuPokemon-name').innerText = cpuCurrent.name;
     document.getElementById('cpu-Hp').innerText = cpuCurrent.HP;
     document.getElementById('cpu-Attack').innerText = cpuCurrent.Attack;
