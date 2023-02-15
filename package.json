@@ -1,0 +1,11 @@
+{
+  "name": "top-trumps",
+  "version": "1.0.0",
+  "description": "This repository is basic boilerplate for an HTML site.  Also included in the model folder is a script containing an array of objects relating to Pokemon.  This can be used to help build out card decks for your Top Trump game.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
